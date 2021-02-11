@@ -6,7 +6,7 @@ import { SomaComponent } from './soma/soma.component';
 const routes: Routes = [{ path: 'soma', component: SomaComponent }];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
