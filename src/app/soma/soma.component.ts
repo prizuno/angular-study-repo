@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class SomaComponent implements OnInit {
   numberOne = 10;
   numberTwo = 20;
+  resultado = 0;
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    this.soma();
   }
 
-  soma(): number {
-    let resultado = this.numberOne + this.numberTwo;
-    return resultado;
+  soma(): void {
+    this.resultado = this.numberOne + this.numberTwo;
   }
 }
