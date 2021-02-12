@@ -5,11 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SomaComponent } from './soma/soma.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SubtracaoComponent } from './subtracao/subtracao.component';
+import { DivisaoComponent } from './divisao/divisao.component';
+import { MultiplicacaoComponent } from './multiplicacao/multiplicacao.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SomaComponent
+    SomaComponent,
+    SubtracaoComponent,
+    DivisaoComponent,
+    MultiplicacaoComponent
   ],
   imports: [
     BrowserModule,

@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./soma.component.sass'],
 })
 export class SomaComponent implements OnInit {
-  numberOne = 10;
-  numberTwo = 20;
+  numberOne = 20;
+  numberTwo = 10;
   resultado = 0;
 
   ngOnInit(): void {
